@@ -1,0 +1,15 @@
+{
+  "name": "io-sdk-javascript",
+  "version": "0.1.0",
+  "description": "IO SDK Excel Importer",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Michele Sciabarra",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "xlsx": "^0.15.3"
+  }
+}
