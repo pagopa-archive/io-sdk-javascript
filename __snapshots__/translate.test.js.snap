@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`translate 1`] = `
+Object {
+  "content": Object {
+    "due_date": 2001-01-01T00:00:00.000Z,
+    "markdown": "# Wecome, Giovanni Rossi\\\\nThis is a test message.\\\\n.This message was sent using the IO-SDK.\\\\nYour fiscal code is ISPXNB32R82Y766F\\\\nWe hope you are enjoing using IO.\\\\n",
+    "subject": "Hi Giovanni",
+  },
+  "fiscal_code": "ISPXNB32R82Y766F",
+  "time_to_live": 3600,
+}
+`;

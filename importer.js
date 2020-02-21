@@ -1,5 +1,7 @@
-xlsx = require("xlsx")
+const xlsx = require("xlsx")
 
+// 
+filename = "data/test1.xlsx"
 function importer(filename) {
     let workbook = xlsx.readFile(filename);
     let name = workbook.SheetNames[0]
