@@ -17,11 +17,9 @@ function extract(key, data) {
 module.exports = function(data) {
     return {
         "time_to_live": config["time_to_live"],
-        "content": {
-            "subject": extract("subject", data),
-            "markdown": extract("markdown", data),
-            "due_date": extract("due_date", data)
-        },
+        "subject": extract("subject", data),
+        "markdown": extract("markdown", data),
+        "due_date": extract("due_date", data),
         "fiscal_code": extract("fiscal_code", data)
     }
 }

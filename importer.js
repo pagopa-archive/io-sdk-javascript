@@ -1,9 +1,7 @@
 const xlsx = require("xlsx")
 
-// 
-filename = "data/test1.xlsx"
-function importer(filename) {
-    let workbook = xlsx.readFile(filename);
+function importer(data) {
+    let workbook = xlsx.read(data, {"type":"base64"});
     let name = workbook.SheetNames[0]
     let sheet = workbook.Sheets[name]
     let ranges = sheet['!ref'].split(":")
