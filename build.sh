@@ -1,3 +1,5 @@
+#!/bin/bash
+cd "$(dirname $0)"
 test -d node_modules || npm install
 test -f index.zip || zip -r index.zip node_modules
 zip -u index.zip *.js -x *.test.js
