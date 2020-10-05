@@ -6,12 +6,17 @@ module.exports = {
         "fiscal_code": "Destinatario",
         "subject": "Titolo",
         "markdown": "Testo",
-        "due_date": "Scadenza"
+        "due_date": "Scadenza",
+		"amount": "Importo",
+		"invalid_after_due_date": "Invalido dopo la scadenza",
+		"notice_number": "Numero Avviso pagoPA"
     },
     // conversion functions you can apply to each field
     "convert": {
         // convert Excel date in JavaScript date
-        "due_date": function(v) { return new Date(Math.round((v - 25569)*86400*1000)) }
+        //"due_date": function(v) { return new Date(Math.round((v - 25569)*86400*1000)) }
+		//"due_date": function(v) { return new Date() }
+		"due_date": function(v) { return new Date((v - 25569)*86400*1000) }
     },
     // describe the form - supported field are in the list
     "form": [
