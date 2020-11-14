@@ -7,9 +7,9 @@ module.exports = {
         "subject": "Titolo",
         "markdown": "Testo",
         "due_date": "Scadenza",
-		"amount": "Importo",
-		"invalid_after_due_date": "Invalido dopo la scadenza",
-		"notice_number": "Numero Avviso pagoPA"
+	"amount": "Importo",
+	"invalid_after_due_date": "Invalido dopo la scadenza",
+	"notice_number": "Numero Avviso pagoPA"
     },
     // conversion functions you can apply to each field
     "convert": {
