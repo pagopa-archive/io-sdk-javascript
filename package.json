@@ -13,5 +13,8 @@
   "dependencies": {
     "build": "^0.1.4",
     "xlsx": "^0.15.6"
+  },
+  "devDependencies": {
+    "jest": "^26.5.0"
   }
 }
