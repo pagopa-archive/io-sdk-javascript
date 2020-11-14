@@ -14,9 +14,7 @@ module.exports = {
     // conversion functions you can apply to each field
     "convert": {
         // convert Excel date in JavaScript date
-        //"due_date": function(v) { return new Date(Math.round((v - 25569)*86400*1000)) }
-		//"due_date": function(v) { return new Date() }
-		"due_date": function(v) { return new Date((v - 25569)*86400*1000) }
+        "due_date": function(v) { return new Date(Math.round((v - 25569)*86400*1000)) }
     },
     // describe the form - supported field are in the list
     "form": [
