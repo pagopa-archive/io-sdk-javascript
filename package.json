@@ -12,7 +12,7 @@
   "license": "Apache 2.0",
   "dependencies": {
     "build": "^0.1.4",
-    "xlsx": "^0.15.6"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "jest": "^26.5.0"
